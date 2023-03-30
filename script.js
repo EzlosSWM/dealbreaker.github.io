@@ -27,18 +27,6 @@ function genWhiteCard(perk) {
     return perk[rand].joke
 }
 
-// let genRedCard = (dealBreaker) => {
-//     let rand = randN(dealBreaker)
-
-//     return dealBreaker[rand].joke
-// }
-
-// let genWhiteCard = (perk) => {
-//     let rand = randN(perk)
-
-//     return perk[rand].joke
-// }
-
 dealCards.addEventListener('click', function() {
     perkOne.innerText = genWhiteCard(dataJson.perks)
     perkTwo.innerText = genWhiteCard(dataJson.perks)
