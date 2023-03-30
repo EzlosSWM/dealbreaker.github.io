@@ -1,4 +1,11 @@
-import dataJson from './deck.json' assert {type: 'json'};
+// import dataJson from './deck.json' assert {type: 'json'};
+async function getData(url) {
+  const resp = await fetch(url);
+
+  return resp.json();
+}
+
+const dataJson = await getData('./deck.json');
 
 const dealCards = document.querySelector('.button_container');
 const perkOne = document.getElementById('perkOne');
