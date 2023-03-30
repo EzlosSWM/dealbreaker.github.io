@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dealbreaker</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="main-header">
+        <nav>
+            <div class="logo">
+                <h3 id="deal">Deal</h3>
+                <h2 id="breaker">Breaker</h2>
+            </div>
+            <h3 id="how_to_play"><a href="#">How To Play?</a></h3>
+            <div class="modal">
+                <div class="modal_content">
+                    <span class="close">&times;</span>
+                    <h3>How To Play?</h3>
+                    <p>Deal Breaker is a party game where each player is dealt 3 cards: 2 blue cards and 1 red card.<br>The white cards represent the good qualities of a person A.K.A. "perks" and the red cards are "deal breakers".<br>In order to play, each player will deal their respective hands. Everyone would have to pick which of the people dealt they would prefer to date.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main body -->
+    <main class="container">
+        <div class="cards">
+            <div class="card perk">
+                <h3 id="perkOne">Perk</h3>
+            </div>
+            <div class="card perk">
+                <h3 id="perkTwo">Perk</h3>
+            </div>
+            <div class="card dealbreaker">
+                <h3 id="dealBreaker">Deal Breaker</h3>
+            </div>
+        </div>
+
+        <!-- button -->
+        <div class="button_container" onclick="dealer">
+            <input type="button" class="button" id="dealer" onclick="dealer" value="Deal Card">
+            <i class="fa-solid fa-shuffle"></i>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <h5>&copy; Carlos Gomez</h5>
+    </footer>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

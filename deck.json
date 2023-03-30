@@ -1,0 +1,112 @@
+{
+	"perks": [
+		{
+			"joke": "Is emotionally mature.",
+			"topic": "general"
+		},
+		{
+			"joke": "Has a private plane.",
+			"topic": "finance"
+		},
+	    {
+			"joke": "loves to give massages.",
+			"topic": "romance"
+		},
+	    {
+			"joke": "Is a good cook.",
+			"topic": "domestic" 
+	    },
+		{
+			"joke": "Has the ability to teleport.",
+			"topic": "general"
+		},
+		{
+			"joke": "Enjoys doing the chores.",
+			"topic": "domestic"
+		},
+		{
+			"joke": "Is a good listener.",
+			"topic": "domestic"
+		},
+	    {
+			"joke": "Is the most attractive person in the world.",
+			"topic": "general"
+		},
+	    {
+			"joke": "Your family loves them.",
+			"topic": "domestic" 
+	    },
+		{
+			"joke": "Lives on the beachfront.",
+			"topic": "domestic"
+		},
+	    {
+			"joke": "Owns your favorite sports team.",
+			"topic": "finance"
+		},
+	    {
+			"joke": "Trusts you unconditionally.",
+			"topic": "domestic" 
+	    },
+		{
+			"joke": "The funniest person in the world.",
+			"topic": "general"
+		},
+		{
+			"joke": "Loves animals.",
+			"topic": "general"
+		}
+	],
+	"dealbreakers": [
+		{
+			"joke": "Thinks the world is flat.",
+			"topic": "general"
+		},
+		{
+			"joke": "Always goes over your messages.",
+			"topic": "domestic"
+		},
+	    {
+			"joke": "Cries when orgasms",
+			"topic": "sexual"
+	    },
+		{
+			"joke": "Never wipes.",
+			"topic": "general"
+		},
+		{
+			"joke": "Constantly farts and it's a stinker.",
+			"topic": "domestic"
+		},
+		{
+			"joke": "Never watched the office.",
+			"topic": "general"
+		},
+		{
+			"joke": "Contantly interrupts you when speaking.",
+			"topic": "general"
+		},
+		{
+			"joke": "Showers once a month.",
+			"topic": "general"
+		},
+		{
+			"joke": "Medically diagnosed pathological liar.",
+			"topic": "general"
+		},
+		{
+			"joke": "Slept with one of your parents... Recently.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Has constant night terrors.",
+			"topic": "general"
+		},
+		{
+			"joke": "Is a registered sex offender.",
+			"topic": "sexual"
+		}
+	]
+}
+
+
