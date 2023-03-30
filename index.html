@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fav.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dealbreaker</title>
 </head>
 <body>
     <!-- header -->
     <header class="main-header">
-        <nav>
+        <nav class="navbar">
             <div class="logo">
                 <h3 id="deal">Deal</h3>
                 <h2 id="breaker">Breaker</h2>
@@ -28,23 +29,25 @@
     </header>
 
     <!-- main body -->
-    <main class="container">
-        <div class="cards">
-            <div class="card perk">
-                <h3 id="perkOne">Perk</h3>
+    <main>
+        <div class="container">
+            <div class="cards">
+                <div class="card perk">
+                    <h3 id="perkOne">Perk</h3>
+                </div>
+                <div class="card perk">
+                    <h3 id="perkTwo">Perk</h3>
+                </div>
+                <div class="card dealbreaker">
+                    <h3 id="dealBreaker">Deal Breaker</h3>
+                </div>
             </div>
-            <div class="card perk">
-                <h3 id="perkTwo">Perk</h3>
-            </div>
-            <div class="card dealbreaker">
-                <h3 id="dealBreaker">Deal Breaker</h3>
-            </div>
-        </div>
 
-        <!-- button -->
-        <div class="button_container" onclick="dealer">
-            <input type="button" class="button" id="dealer" onclick="dealer" value="Deal Card">
-            <i class="fa-solid fa-shuffle"></i>
+            <!-- button -->
+            <div class="button_container" onclick="dealer">
+                <input type="button" class="button" id="dealer" onclick="dealer" value="Deal Card">
+                <i class="fa-solid fa-shuffle"></i>
+            </div>
         </div>
     </main>
 
