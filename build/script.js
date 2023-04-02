@@ -34,15 +34,16 @@ dealCards.addEventListener('click', function() {
 })
 
 // Modal content
-const modal = document.querySelector(".modal");
-const btn = document.getElementById("how_to_play");
-const span = document.getElementsByClassName("close")[0];
+let modal = document.getElementById("my-modal");
+let open = document.getElementById("open");
+let close = document.getElementById("close");
+// let modal = document.getElementById("my-modal")
 
-btn.onclick = function() {
+open.onclick = function() {
   modal.style.display = "block";
 }
 
-span.onclick = function() {
+close.onclick = function() {
   modal.style.display = "none";
 }
 

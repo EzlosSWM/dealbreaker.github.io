@@ -1,7 +1,63 @@
 {
 	"perks": [
 		{
-			"joke": "Is emotionally mature.",
+			"joke": "Lives in a castle",
+			"topic": "finance"
+		},
+		{
+			"joke": "Can fire your most hated co-worker/boss.",
+			"topic": "finance"
+		},
+		{
+			"joke": "Has all the same hobbies as you.",
+			"topic": "general"
+		},
+	    {
+			"joke": "Always defends you.",
+			"topic": "romance"
+		},
+		{
+			"joke": "Can multiply themselves",
+			"topic": "general"
+		},
+		{
+			"joke": "Always knows how to make you feel better", 
+			"topic": "romance"
+		},
+		{
+			"joke": "Best sex ever.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Gives you multiple orgasms.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Porn star.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Spontaenous and fun.",
+			"topic": "general"
+		},
+	    {
+			"joke": "Is a great conversationalist.",
+			"topic": "romance"
+		},
+		{
+			"joke": "You'll never gain weight while with them.",
+			"topic": "general"
+		},
+		{
+			"joke": "Has the voice of an angel.",
+			"topic": "general"
+		},
+	    {
+			"joke": "You'll never get sick while you're with them.",
+			"topic": "general"
+		},
+		{
+			"joke": "Genius-level IQ.",
 			"topic": "general"
 		},
 		{
@@ -59,8 +115,48 @@
 	],
 	"dealbreakers": [
 		{
+			"joke": "Doesn't understand your jokes.",
+			"topic": "general"
+		},
+		{
+			"joke": "Has a ________ fetish.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Doesn't like music... Any of it.",
+			"topic": "general"
+		},
+		{
+			"joke": "Is underage.",
+			"topic": "general"
+		},
+		{
+			"joke": "Thinks the one that is louder, wins the argument.",
+			"topic": "domestic"
+		},
+		{
 			"joke": "Thinks the world is flat.",
 			"topic": "general"
+		},
+		{
+			"joke": "Counts YOUR calories", 
+			"topic": "general"
+		},
+		{
+			"joke": "Looks and smells like your dad", 
+			"topic": "sexual"
+		},
+		{
+			"joke": "Celibate.",
+			"topic": "sexual"
+		},
+		{
+			"joke": "Isn't potty trained",
+			"topic": "domestic"
+		},
+		{
+			"joke": "Calls your a 4 to your face",
+			"topic": "sexual"
 		},
 		{
 			"joke": "Always goes over your messages.",
